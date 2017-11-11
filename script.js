@@ -49,6 +49,7 @@ function drawSingleBox(position, dimensions) {
     //console.log("P: "+JSON.stringify(position)+"D: "+JSON.stringify(dimensions));
 
     let box = document.createElement("div");
+    box.className = "tile";
     box.style.position = "absolute";
     box.style.left = 100 * position.x / contentSize.x + "%";
     box.style.top = 100 * position.y / contentSize.y + "%";
@@ -56,8 +57,16 @@ function drawSingleBox(position, dimensions) {
     box.style.height = 100 * dimensions.y / contentSize.y + "%";
     box.style.backgroundColor = "#"+(Math.floor(Math.random()*16777215)).toString(16);
     
-    box.innerHTML = current_index;
-    current_index++;
 
+    if (current_index < content.length) {
+        let textBox = document.createElement("header");
+        textBox.innerHTML = content[current_index].title;
+
+        box.appendChild(textBox);
+
+        box.style.backgroundImage = 'url(' + content[current_index].img + ')'
+    }
+    
+    current_index++;
     document.getElementById('content').appendChild(box);
 }
