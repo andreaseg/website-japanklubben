@@ -4,6 +4,7 @@ function onLoadComplete(event) {
     let currentArticle = location.search.split('i=')[1];
     
     if(typeof(currentArticle) == 'undefined' || currentArticle >= getNumberOfContent() || currentArticle < 0) {
+        document.getElementById('content').style.height = "calc("+1/1.6 * contentSize.x / contentSize.y+" * 60vw)"
         drawBoxes({x:0, y:0},contentSize);
     }
     else {
@@ -75,6 +76,16 @@ function drawSingleBox(position, dimensions) {
 
 function drawContent(index) {
     document.getElementById('content').innerHTML = "";
-    document.getElementById('content').innerHTML = getContent(index).title + "<br />" + getContent(index).text;
-    document.getElementsByTagName('body')[0].style.backgroundImage = 'url(' + getContent(index).img + ')'
+
+    let text = document.createElement("p");
+    let title = document.createElement("h1");
+    let image = document.createElement("img");
+    image.src = getContent(index).img;
+    image.className = "topImage";
+    title.innerHTML = getContent(index).title;
+    text.innerHTML = getContent(index).text;
+
+    document.getElementById('content').appendChild(image);
+    document.getElementById('content').appendChild(title);
+    document.getElementById('content').appendChild(text);
 }

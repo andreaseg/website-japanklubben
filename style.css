@@ -46,9 +46,19 @@ a:hover {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
-    max-width: 80em;
-    height: 42em;
+    width: 60%;
+    background-color: white;
+    padding: 1em 6em 3em 6em;
+}
+
+.topImage {
+    width: calc(100% + 12em);
+    transform: translate(-6em, -1em);
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 16vw;
+    object-fit: cover;
 }
 
 .tile {
