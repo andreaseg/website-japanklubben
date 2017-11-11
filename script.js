@@ -56,8 +56,12 @@ function drawSingleBox(position, dimensions) {
     box.style.height = 100 * dimensions.y / contentSize.y + "%";
     box.style.backgroundColor = "#"+(Math.floor(Math.random()*16777215)).toString(16);
     
-    box.innerHTML = current_index;
-    current_index++;
 
+    if (current_index < content.length) {
+        box.innerHTML = content[current_index].title;
+        box.style.backgroundImage = 'url(' + content[current_index].img + ')'
+    }
+    
+    current_index++;
     document.getElementById('content').appendChild(box);
 }
