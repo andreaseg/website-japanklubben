@@ -86,3 +86,13 @@ a:hover {
     background-image: url("./frost.png");
     z-index: -1;
 }
+
+.staticcontent {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    max-width: 80em;
+    padding: 40px;
+    background-color: white;
+}
