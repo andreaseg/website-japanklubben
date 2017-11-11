@@ -23,8 +23,23 @@ footer {
     transform: translateX(-50%);
     height: 30px;
     width: 100%;
+    background-color: rgb(202, 202, 202);
+    text-decoration-color: #888;
     text-align: left;
     
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(235, 13, 13)
+}
+
+#maintitle {
+    font-size: 30pt;
 }
 
 #content {
@@ -72,4 +87,14 @@ footer {
     opacity: 0.6;
     background-image: url("./frost.png");
     z-index: -1;
+}
+
+.staticcontent {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    max-width: 80em;
+    padding: 40px;
+    background-color: white;
 }
