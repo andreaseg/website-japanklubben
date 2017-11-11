@@ -1,7 +1,7 @@
 var content = [
 {
 title: "Calligraphy",
-img: "/media/calligraphy.png",
+img: "./media/calligraphy.png",
 text: 
 `Traditionally, Japanese calligraphy consists of using a brush and ink. It is also possible to write by using just water instead of ink, so-called 水書き (mizugaki, lit. “water-writing”). The main difference between these two methods is that by using ink your writings will be permanent, whereas with water the writings will only be temporary as the piece of paper will eventually dry up and be ready for more writing. The latter method obviously gives you the possibility to test out your writing skills without the fear of “messing up” the piece of paper, although this should not be a problem at all given how much paper we have!
 
@@ -11,7 +11,7 @@ Japan Club Norway will hold cultural activites similar to this one every two wee
 },
 {
 title: "Tea Ceremony",
-img: "/media/tea_ceremony.jpg",
+img: "./media/tea_ceremony.jpg",
 text: `
 Since the event was organized at an ordinary classroom, the organizers arrived in advance to prepare the room by moving chairs and tables and putting out the tea equipment. We didn’t have much funding for this event so we had to use what we had at home. In a proper tea-ceremony very special equipment is needed which is made just for the purpose of being used in the ceremony. For example we used an ordinary water cookers to boil the water, where we should have used a tetsubin (鉄瓶 – iron kettle) on a binkake (瓶掛 – stand for tetsubin), but the result is the same: hot water.
 
@@ -34,7 +34,7 @@ The summary for rules of the tea-ceremony can be found [here]
 },
 {
     title: "End of year",
-    img: "/media/end-of-year.jpg",
+    img: "./media/end-of-year.jpg",
     text: `
     The end of the semester party was meant as a symbolic end of the semester where we celebrated our efforts in learning Japanese and another semester of events and development of Japan Club Norway.
     
