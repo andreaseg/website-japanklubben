@@ -1,0 +1,9 @@
+body {
+    position: relative;
+}
+
+#content {
+    position: relative;
+    width: 80%;
+    height: 42em;
+}
