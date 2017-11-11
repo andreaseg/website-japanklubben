@@ -1,3 +1,11 @@
+function getContent(i) {
+    return content[i];
+}
+
+function getNumberOfContent() {
+    return content.length;
+}
+
 var content = [
 {
 title: "Calligraphy",

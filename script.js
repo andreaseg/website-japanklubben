@@ -1,16 +1,15 @@
 this.addEventListener("DOMContentLoaded", onLoadComplete, true);
 
 function onLoadComplete(event) {
-    drawBoxes({x:0, y:0},contentSize);
+    let currentArticle = location.search.split('i=')[1];
+    
+    if(typeof(currentArticle) == 'undefined' || currentArticle >= getNumberOfContent() || currentArticle < 0) {
+        drawBoxes({x:0, y:0},contentSize);
+    }
+    else {
+        drawContent(currentArticle);   
+    }   
 }
-
-/*
-function drawPage(index) {
-    document.getElementById('title').innerHTML = content[index].title;
-    document.getElementById('text').innerHTML = content[index].text;
-    document.getElementsByTagName('body')[0].style.backgroundImage = 'url(' + content[index].img + ')'
-}
-*/
 
 var current_index = 0;
 var contentSize = {x:3, y:3};
@@ -48,7 +47,7 @@ function drawBoxes(position, area) {
 function drawSingleBox(position, dimensions) {
     //console.log("P: "+JSON.stringify(position)+"D: "+JSON.stringify(dimensions));
 
-    let box = document.createElement("div");
+    let box = document.createElement("a");
     box.className = "tile";
     box.style.position = "absolute";
     box.style.left = 100 * position.x / contentSize.x + "%";
@@ -58,15 +57,22 @@ function drawSingleBox(position, dimensions) {
     box.style.backgroundColor = "#"+(Math.floor(Math.random()*16777215)).toString(16);
     
 
-    if (current_index < content.length) {
+    if (current_index < getNumberOfContent()) {
         let textBox = document.createElement("header");
-        textBox.innerHTML = content[current_index].title;
-
+        textBox.innerHTML = getContent(current_index).title;
         box.appendChild(textBox);
 
-        box.style.backgroundImage = 'url(' + content[current_index].img + ')'
+        box.href = "./?i="+current_index;
+
+        box.style.backgroundImage = 'url(' + getContent(current_index).img + ')'
     }
     
     current_index++;
     document.getElementById('content').appendChild(box);
+}
+
+function drawContent(index) {
+    document.getElementById('content').innerHTML = "";
+    document.getElementById('content').innerHTML = getContent(index).title + "<br />" + getContent(index).text;
+    document.getElementsByTagName('body')[0].style.backgroundImage = 'url(' + getContent(index).img + ')'
 }
