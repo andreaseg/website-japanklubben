@@ -1,5 +1,6 @@
 body {
     position: relative;
+    background-color: #efefef;
 }
 
 header {
@@ -34,15 +35,39 @@ footer {
 }
 
 .tile {
-    border: 5px solid white;
+    border: 5px solid #efefef;
     padding: -5px;
+    background-clip: padding-box;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-clip: padding-box;
+    z-index: -2;
 }
 
-.tile header {
+.tile:link, .tile:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+.tile:hover {
+    
+}
+
+.tile header, .tile header::after {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.137);
+    font-size: 170%;
+    padding: 3px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.tile header::after{
+    content: "";
+    height: 0.66em;
+    /*background-color: rgba(255, 255, 255, 0.6);*/
+    opacity: 0.6;
+    background-image: url("./frost.png");
+    z-index: -1;
 }
