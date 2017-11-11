@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Didact%20Gothic");
+
 body {
     position: relative;
     background-color: #efefef;
@@ -36,7 +38,7 @@ footer {
 
 .tile {
     border: 5px solid #efefef;
-    padding: -5px;
+    padding: 5px;
     background-clip: padding-box;
     background-size: cover;
     background-position: center center;
@@ -50,12 +52,13 @@ footer {
     cursor: auto;
 }
 
-.tile:hover {
-    
+.clickable:hover {
+    filter: saturate(1.6);
 }
 
 .tile header, .tile header::after {
-    width: 100%;
+    font-family: 'Didact Gothic';
+    width: calc(100% - 5px);
     font-size: 170%;
     padding: 3px;
     position: absolute;
@@ -66,7 +69,6 @@ footer {
 .tile header::after{
     content: "";
     height: 0.66em;
-    /*background-color: rgba(255, 255, 255, 0.6);*/
     opacity: 0.6;
     background-image: url("./frost.png");
     z-index: -1;

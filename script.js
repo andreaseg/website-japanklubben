@@ -14,6 +14,8 @@ function onLoadComplete(event) {
 var current_index = 0;
 var contentSize = {x:3, y:3};
 
+var colorScheme = ["#913CCD","#F15F74","#F76D3C","#F7D842","#2CA8C2","#98CB4A","#839098","#5481E6"];
+
 function drawBoxes(position, area) {
     // random number
     // 0-0.5 == default action
@@ -45,7 +47,6 @@ function drawBoxes(position, area) {
 }
 
 function drawSingleBox(position, dimensions) {
-    //console.log("P: "+JSON.stringify(position)+"D: "+JSON.stringify(dimensions));
 
     let box = document.createElement("a");
     box.className = "tile";
@@ -54,8 +55,6 @@ function drawSingleBox(position, dimensions) {
     box.style.top = 100 * position.y / contentSize.y + "%";
     box.style.width = 100 * dimensions.x / contentSize.x + "%";
     box.style.height = 100 * dimensions.y / contentSize.y + "%";
-    box.style.backgroundColor = "#"+(Math.floor(Math.random()*16777215)).toString(16);
-    
 
     if (current_index < getNumberOfContent()) {
         let textBox = document.createElement("header");
@@ -63,8 +62,11 @@ function drawSingleBox(position, dimensions) {
         box.appendChild(textBox);
 
         box.href = "./?i="+current_index;
-
+        box.className = "tile clickable";
         box.style.backgroundImage = 'url(' + getContent(current_index).img + ')'
+    }
+    else {
+        box.style.backgroundColor = colorScheme[current_index % colorScheme.length];
     }
     
     current_index++;
