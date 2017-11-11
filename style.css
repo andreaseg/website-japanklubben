@@ -11,8 +11,6 @@ header.navigation {
     transform: translateX(-50%);
     height: 100px;
     width: 100%;
-    border-bottom: 1px;
-    border-bottom-color: #666666;
     text-align: center;
 }
 
@@ -23,8 +21,6 @@ footer {
     transform: translateX(-50%);
     height: 30px;
     width: 100%;
-    background-color: rgb(202, 202, 202);
-    text-decoration-color: #888;
     text-align: left;
     
 }
@@ -93,7 +89,7 @@ a:hover {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
+    width: 80%;
     max-width: 80em;
     padding: 40px;
     background-color: white;
