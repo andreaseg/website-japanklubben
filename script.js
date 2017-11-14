@@ -47,15 +47,17 @@ function drawBoxes(position, area) {
     }
 }
 
+var half_sep = "2.5px";
+
 function drawSingleBox(position, dimensions) {
 
     let box = document.createElement("a");
     box.className = "tile";
     box.style.position = "absolute";
-    box.style.left = 100 * position.x / contentSize.x + "%";
-    box.style.top = 100 * position.y / contentSize.y + "%";
-    box.style.width = 100 * dimensions.x / contentSize.x + "%";
-    box.style.height = 100 * dimensions.y / contentSize.y + "%";
+    box.style.left = "calc(" + 100 * position.x / contentSize.x + "% + " + half_sep + ")";
+    box.style.top = "calc(" +  100 * position.y / contentSize.y + "% + " + half_sep + ")";
+    box.style.width = "calc(" +  100 * dimensions.x / contentSize.x + "% - " + half_sep + ")";
+    box.style.height = "calc(" +  100 * dimensions.y / contentSize.y + "% - " + half_sep + ")";
 
     if (current_index < getNumberOfContent()) {
         let textBox = document.createElement("header");
@@ -88,4 +90,5 @@ function drawContent(index) {
     document.getElementById('content').appendChild(image);
     document.getElementById('content').appendChild(title);
     document.getElementById('content').appendChild(text);
+    document.getElementById('content').style.backgroundColor = "white";
 }
