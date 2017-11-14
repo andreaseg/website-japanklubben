@@ -114,7 +114,7 @@ a:hover {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
+    width: 60%;
     max-width: 80em;
     padding: 40px;
     background-color: white;
