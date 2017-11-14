@@ -10,12 +10,20 @@ var content = [
 {
 title: "Calligraphy",
 img: "./media/calligraphy.png",
-text: 
-`Traditionally, Japanese calligraphy consists of using a brush and ink. It is also possible to write by using just water instead of ink, so-called 水書き (mizugaki, lit. “water-writing”). The main difference between these two methods is that by using ink your writings will be permanent, whereas with water the writings will only be temporary as the piece of paper will eventually dry up and be ready for more writing. The latter method obviously gives you the possibility to test out your writing skills without the fear of “messing up” the piece of paper, although this should not be a problem at all given how much paper we have!
+text:
+`
+<p>
+Traditionally, Japanese calligraphy consists of using a brush and ink. It is also possible to write by using just water instead of ink, so-called 水書き (mizugaki, lit. “water-writing”). The main difference between these two methods is that by using ink your writings will be permanent, whereas with water the writings will only be temporary as the piece of paper will eventually dry up and be ready for more writing. The latter method obviously gives you the possibility to test out your writing skills without the fear of “messing up” the piece of paper, although this should not be a problem at all given how much paper we have!
+</p>
 
+<p>
 Thursday 26th January was the third time that Japan Club Norway held an open session in Japanese calligraphy. In total we were ten people participating in the event. One of the fun aspects with these sessions is obviously to get to meet new people. These calligraphy sessions are meant to be a way for people who are interested in Japanese culture to gather together and socialise. This could obviously be said to be true for this day, with music, jokes and lots of conversing – all in all, it was a fun time!
+</p>
 
-Japan Club Norway will hold cultural activites similar to this one every two weeks, so be on the lookout if this sounds interesting to you.`
+<p>
+Japan Club Norway will hold cultural activites similar to this one every two weeks, so be on the lookout if this sounds interesting to you.
+</p>
+`
 },
 {
 title: "Tea Ceremony",
@@ -61,18 +69,35 @@ The summary for rules of the tea-ceremony can be found <a href="./media/chadou_r
     title: "End of year",
     img: "./media/end-of-year.jpg",
     text: `
+    <p>
     The end of the semester party was meant as a symbolic end of the semester where we celebrated our efforts in learning Japanese and another semester of events and development of Japan Club Norway.
-    
+    </p>
+
+    <p>
     For this semester’s party we chose Amber-sushi as our venue since they could provide a private “samurai-room” which we ordered at no additional cost. The room was set apart from the main restaurant inside a doorway covered by a curtain. Inside was a dramatic portrayal of a samurai, a long table and some other decorations, perfect for such an occasion.
+    </p>
+
+    <figure>
+    <img src="./media/end-of-year-food.jpg">
+    <figcaption>We got special service when ordering the Party Mix.</figcaption>
+    </figure>
     
-    We got special service when ordering the Party Mix
-    We got special service when ordering the Party Mix
     
+    <p>
     The evening started with some small talk between the early comers and when everyone had arrived, a group of people, me included, decided to ordered the appropriately named Party Mix set. This included 50 pieces of sushi that our waiter was so kind enough to change from mainly Phildelphia cheese maki to more nigiri and sashimi. Before eating I, as the organizer, opened with a welcome speech in Japanese where I thanked everyone for coming, talked a bit about the Genki course and finally thanked president Andreas for making Japan Club Norway possible. A symbolic present was given, and president Andreas then had his own speech where he thanked us in the board for the surprising present and talked a bit about the Japan Club Norway’s history and future.
-    
+    </p>
+
+    <p>
     After consuming our delicious feast we held a small quiz which included diverse esoteric questions of trivia about Japan. It turned to be more difficult than anticipated such that the winning group (president Andreas and Stian) only got 4 correct answers out of 11 possible.
-    
+    </p>
+
+    <p>
     Finally, a prize – consisting of mochi candy – was awarded to Kurt for most correct answers in the Kanji-tests of the Genki course with the impressive 87.70% correct of all possible Kanjis this semester, and 100% of all Kanji-tests he participated in. There were also a prize for the winners of the quiz and finally the membership-magazines were distributed to those who had paid for it.
+    </p>
+
+    <p>
+    – Fredrik Nicolai Krohg
+    </p>
     `
 }
 ];

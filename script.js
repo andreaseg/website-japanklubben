@@ -1,10 +1,17 @@
 this.addEventListener("DOMContentLoaded", onLoadComplete, true);
 
+var seed = Math.floor(new Date().getTime()/(1000 * 60 * 60 * 24));
+console.log(seed);
+function random() {
+    var x = Math.sin(seed++) * 10000;
+    return x - Math.floor(x);
+}
+
 function onLoadComplete(event) {
     let currentArticle = location.search.split('i=')[1];
     
     if(typeof(currentArticle) == 'undefined' || currentArticle >= getNumberOfContent() || currentArticle < 0) {
-        document.getElementById('content').style.height = "calc("+1/1.6 * contentSize.x / contentSize.y+" * 60vw)"
+        document.getElementById('content').style.height = "calc("+1/1.6 * contentSize.y / contentSize.x+" * 60vw)"
         drawBoxes({x:0, y:0},contentSize);
     }
     else {
@@ -23,7 +30,7 @@ function drawBoxes(position, area) {
     // 0.5-0.75 == horisontal split
     // 0.75-1.0 == vertical split
 
-    let r = Math.random();
+    let r = random();
     let f = Math.floor;
     let g = Math.ceil;
     if (r % 1/8 < 1/16) {
