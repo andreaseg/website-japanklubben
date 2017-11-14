@@ -99,5 +99,31 @@ The summary for rules of the tea-ceremony can be found <a href="./media/chadou_r
     – Fredrik Nicolai Krohg
     </p>
     `
+},
+{
+    title: "Tea at the library",
+    img: "./media/Mizuno_Toshikata_Ceremonie_The.jpg",
+    text: `
+    <p>
+    We were invited to the library at Dragvoll to perform a tea ceremony. They have a tea room, which probably is the only one in this part of the country.
+    Of course we had to take this chance to use this room.
+    </p>
+
+    <p>
+    Before the ceremony itself I held a short talk about some aspects of tea ceremony and the consept of Wabi.
+    </p>
+
+    <center>
+    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FNTNUUB%2Fvideos%2F1520539161314828%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    </center>
+    <p>
+    - Andreas Grønlien
+    </p>
+
+    <p>
+    Image at top is "Picture of kaiseki" by Toshikata Mizuno, woodprint.
+    </p>
+    `
+
 }
 ];
