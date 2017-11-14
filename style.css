@@ -89,7 +89,8 @@ a:hover {
 }
 
 .clickable:hover {
-    filter: saturate(1.6);
+    /*filter: saturate(1.6);*/
+    filter: contrast(1.2) saturate(1.4) sepia(0.4);;
 }
 
 .tile header, .tile header::after {

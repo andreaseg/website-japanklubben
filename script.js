@@ -1,6 +1,7 @@
 this.addEventListener("DOMContentLoaded", onLoadComplete, true);
 
 var seed = Math.floor(new Date().getTime()/(1000 * 60 * 60 * 24));
+seed = 17484;
 console.log(seed);
 function random() {
     var x = Math.sin(seed++) * 10000;
