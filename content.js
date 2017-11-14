@@ -110,7 +110,8 @@ The summary for rules of the tea-ceremony can be found <a href="./media/chadou_r
     </p>
 
     <p>
-    Before the ceremony itself I held a short talk about some aspects of tea ceremony and the consept of Wabi.
+    Before the ceremony itself I held a short talk about some aspects of tea ceremony and the consept of Wabi. Afterwards some lucky attendees were able to partake in a simple
+    ceremony held by Nicolai. It seemed like they enjoyed themselves a lot.
     </p>
 
     <center>
