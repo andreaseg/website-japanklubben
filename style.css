@@ -76,7 +76,7 @@ a:hover {
 
 .tile header, .tile header::after {
     font-family: 'Didact Gothic';
-    width: calc(100% - 5px);
+    width: calc(100% - 6px);
     font-size: 170%;
     padding: 3px;
     position: absolute;
