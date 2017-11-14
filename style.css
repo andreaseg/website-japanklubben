@@ -43,6 +43,7 @@ a:hover {
     left: 50%;
     transform: translateX(-50%);
     width: 60%;
+    max-width: 50em;
     padding: 1em 6em 3em 6em;
 }
 
@@ -101,3 +102,13 @@ a:hover {
     padding: 40px;
     background-color: white;
 }
+
+figure {
+    display: table;
+    float: right;
+  }
+  
+  figcaption {
+    display: table-caption;
+    caption-side: bottom;
+  }

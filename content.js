@@ -21,23 +21,40 @@ Japan Club Norway will hold cultural activites similar to this one every two wee
 title: "Tea Ceremony",
 img: "./media/tea_ceremony.jpg",
 text: `
+
+<figure>
+<img src="./media/tea_ceremony_chawan.jpg">
+<figcaption>All the movements in the making of tea in a tea-ceremony is done according to specific rules.</figcaption>
+</figure>
+
+<p>
 Since the event was organized at an ordinary classroom, the organizers arrived in advance to prepare the room by moving chairs and tables and putting out the tea equipment. We didn’t have much funding for this event so we had to use what we had at home. In a proper tea-ceremony very special equipment is needed which is made just for the purpose of being used in the ceremony. For example we used an ordinary water cookers to boil the water, where we should have used a tetsubin (鉄瓶 – iron kettle) on a binkake (瓶掛 – stand for tetsubin), but the result is the same: hot water.
+</p>
 
-All the movements in the making of tea in a tea-ceremony is done according to specific rules.
-All the movements in the making of tea in a tea-ceremony is done according to specific rules.
-
+<p>
 On the flip side Kurt honored us with a beautiful kakejiku (掛け軸 – hanging scroll) which read hana yori dango (花より団子 – dango rather than flowers) which we hung behind the guest mat.We were invited to reflect on the meaning of this, and later it was revealed that Andreas had made dango-sticks which could have been of relevance. The dango was flavored elegantly with macha for green color and strawberry for red. First the bowl was passed along the line of three guests who were placed opposite the host (Andreas). The container was raised in an expression of thankfulness, a stick placed on a paper napkin and then passed to the next guest.The dango were very delicious but unfortunately some of the paper got stuck, so maybe a different type of paper would be good for future use.
+</p>
 
-When drinking the tea, place the chawan in your left palm, steady with your right hand, keep your chin pulled in slightly with your back straight.
-When drinking the tea, place the chawan in your left palm, steady with your right hand, keep your chin pulled in slightly with your back straight.
+<figure>
+<img src="./media/tea_ceremony_drink.jpg">
+<figcaption>When drinking the tea, place the chawan in your left palm, steady with your right hand, keep your chin pulled in slightly with your back straight.</figcaption>
+</figure>
 
+<p>
 Then it was time for tea. Andreas had written a nice summary of the rules for the guests which was distributed, and read through. When drinking tea in such a ceremony almost all movements are to be according to special rules so that nothing is left to chance and the guests get the opportunity to concentrate fully on the now. If done correctly, and with much practice, one can even acheieve a meditative state while doing it. For us beginners it took some time to read through these rules and even then, since they were numerous they were soon forgotten. I think a possible improvement here is to, instead of reading through everything at once and trying to remember everything. Just focus on the first few beginning steps, do them in unison with the host making sure that everything is done correctly, then incorporate more steps until all steps are accounted for. Kind of how one would learn a kata in karate.
+</p>
 
+<p>
 Even though I had some problems remembering all the steps, this did not stop me from enjoying the tranquil atmosphere and delicious snacks and tea. The macha tea was nicely prepared by the host Andreas by the use of a traditional whisk and spoon. All in all it was a nice break from the hustle and bustle of everyday life to only concentrate on one thing: tea.
+</p>
 
-The summary for rules of the tea-ceremony can be found [here]
+<p>
+The summary for rules of the tea-ceremony can be found <a href="./media/chadou_rules.jpg">[here]</a>
+</p>
 
+<p>
 – Fredrik Nicolai Krohg
+</p>
 `
 },
 {
