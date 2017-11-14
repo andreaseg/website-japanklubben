@@ -116,6 +116,7 @@ a:hover {
     transform: translateX(-50%);
     width: 60%;
     max-width: 80em;
+    min-height: 270px;
     padding: 40px;
     background-color: white;
 }
