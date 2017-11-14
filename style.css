@@ -2,6 +2,7 @@
 
 body {
     position: relative;
+    min-height: calc(100vh - 70px);
     background-color: #efefef;
 }
 
@@ -15,13 +16,9 @@ header.navigation {
 }
 
 footer {
-    position: fixed;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 30px;
-    width: 100%;
-    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
     padding-left: 20px;
 }
 
@@ -36,6 +33,19 @@ a:hover {
 
 #maintitle {
     font-size: 30pt;
+}
+
+
+#mail {
+    width: 250px;
+    height: 25px;
+    padding-bottom: 7px;
+}
+
+#facebook {
+    height: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 #content {
@@ -55,6 +65,13 @@ a:hover {
     top: 0px;
     height: 16vw;
     object-fit: cover;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .tile {
