@@ -72,7 +72,8 @@ function drawSingleBox(position, dimensions) {
         textBox.innerHTML = getContent(current_index).title;
         box.appendChild(textBox);
 
-        box.href = "./?i="+current_index;
+        box.href = "http://www.japanklubben.no/?i="+current_index;
+        box.target = "_top";
         box.className = "tile clickable";
         box.style.backgroundImage = 'url(' + getContent(current_index).img + ')'
     }
